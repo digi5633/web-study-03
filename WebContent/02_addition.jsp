@@ -16,5 +16,8 @@
 		%>
 		<br>
 		<%=add %>
+		<%
+			out.print(num1);
+		%>
 	</body>
 </html>
