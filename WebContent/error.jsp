@@ -1,15 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <!-- 현재 페이지가 에러 페이지임을 설정 -->
     <%@ page isErrorPage="true" %>
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Insert title here</title>
+		<title>에러 발생 페이지와 에러 페이지 만들기</title>
 	</head>
 	
 	<body>
-	예외가 발생함
+		다음과 같은 에러가 발생하였습니다.
+		예외가 발생함
 		<%=exception.getMessage() %>
 	</body>
 </html>

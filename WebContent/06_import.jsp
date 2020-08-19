@@ -6,7 +6,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>JSP - import</title>
+		<title>오늘 날짜 출력하기</title>
 	</head>
 	
 	<body>
